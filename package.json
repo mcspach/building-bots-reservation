@@ -7,13 +7,17 @@
     "dev": "cross-env DEBUG='reservation:*,@slack/events-api:*' nodemon ./bin/www"
   },
   "dependencies": {
+    "@slack/events-api": "^3.0.0",
+    "@slack/web-api": "^6.1.0",
     "debug": "~2.6.9",
     "dotenv": "^8.0.0",
     "ejs": "~2.5.7",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
     "moment": "^2.24.0",
-    "morgan": "~1.9.0"
+    "morgan": "~1.9.0",
+    "slack-node": "^0.1.8",
+    "tracer": "^1.1.4"
   },
   "devDependencies": {
     "cross-env": "^6.0.3",
